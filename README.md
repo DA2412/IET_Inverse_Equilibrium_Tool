@@ -1,5 +1,4 @@
 # IET Inverse Equilibrium Tool
-=============================================
 ![Logo_IET_readme](https://github.com/DA2412/IET/blob/master/logo_IET_1.png)
 _IET logo designed by http://www.riccardopirotto.com_
 
