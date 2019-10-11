@@ -24,9 +24,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-# References
-[1] Abate, D., and P. Bettini. "An inverse equilibrium tool to define axisymmetric plasma equilibria." Plasma Physics and Controlled Fusion 61.10 (2019): 105016  doi: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
-[2] IET logo designed by http://www.riccardopirotto.com/
+# References & links
+*  Abate, D., and P. Bettini. "An inverse equilibrium tool to define axisymmetric plasma equilibria." Plasma Physics and Controlled Fusion 61.10 (2019): 105016  doi: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
+* IET logo designed by http://www.riccardopirotto.com/
 
 # User manual
 See the documentation Documentation/IET_User_Manual_Document.pdf
