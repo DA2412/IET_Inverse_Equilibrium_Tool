@@ -1,6 +1,5 @@
 # IET Inverse Equilibrium Tool
 ![Logo_IET_readme](https://github.com/DA2412/IET/blob/master/logo_IET_1.png)
-_IET logo designed by http://www.riccardopirotto.com_
 
 # About IET
 IET (Inverse Equilibrium Tool) is a MATLAB computational tool constituted by three main modules, each with a dedicated GUI. It allows to compute the coil currents needed to obtain a predetermined plasma shape with defined plasma global parameters (i.e. total plasma current and total poloidal magnetic flux at the boundary) by solving a constrained minimization problem. 
