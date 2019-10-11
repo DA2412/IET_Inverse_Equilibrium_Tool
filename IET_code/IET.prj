@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="741003887" file="\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET.prj" location="\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL" name="IET" preferred-package-location="C:\mnt\N41a\home\abate\D:\Domenico_Disk_D\Lavoro\2020_InverseEquilibriumTool_FINAL\IET_StandAlone_v1\for_redistribution" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="2441916419" file="\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code\IET.prj" location="\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code" name="IET" preferred-package-location="\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code\IET_StandAloneWin_v1\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>IET</param.appname>
     <param.icon>${PROJECT_ROOT}\IET_resources\icon.ico</param.icon>
     <param.icons>
@@ -62,25 +62,7 @@ along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</pa
 	 
  Input Arguments 
 	 -?  print help on how to use the application 
-	 input arguments 
- Description 
- 	 IET allows to compute the coil currents needed to obtain a predetermined plasma shape with defined plasma global parameters (i.e. total plasma current and total poloidal magnetic flux at the boundary) by solving a constrained minimization problem. 
-The IET computational tool is constituted by three main modules, each with a dedicated GUI. IET was validated for both ITER-like plasma configurations and experimental plasmas in the RFX-mod experiment.  The journal publication of IET code can be found here: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
-
-Copyright (C) 2019 Domenico Abate - domenico.abate@igi.cnr.it
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</param.help.text>
+	 input arguments</param.help.text>
     <unset>
       <param.version />
       <param.guid />
@@ -107,7 +89,6 @@ along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</pa
       <file>${PROJECT_ROOT}\IET.mlapp</file>
     </fileset.main>
     <fileset.resources>
-      <file>${PROJECT_ROOT}\Documentation</file>
       <file>${PROJECT_ROOT}\IET.mlapp</file>
       <file>${PROJECT_ROOT}\IET_EQUILIBRIUM_TOOL</file>
       <file>${PROJECT_ROOT}\IET_OPTIMIZATION_TOOL</file>
@@ -116,9 +97,9 @@ along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</pa
     <fileset.package />
     <fileset.depfun />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="splash.png" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\splash.png</file>
-      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="readme.txt" optional="true">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="IET.exe" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\IET.exe</file>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="readme.txt" optional="true">\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code\IET_StandAloneWin_v1\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="splash.png" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code\IET_StandAloneWin_v1\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="IET.exe" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_GitHub\IET_Master\IET_code\IET_StandAloneWin_v1\for_testing\IET.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
