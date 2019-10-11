@@ -10,6 +10,7 @@ For any information contact: domenico.abate@igi.cnr.it
 
 # License
 Copyright (C) 2019 Domenico Abate - domenico.abate@igi.cnr.it
+
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
@@ -25,6 +26,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # References
 [1] Abate, D., and P. Bettini. "An inverse equilibrium tool to define axisymmetric plasma equilibria." Plasma Physics and Controlled Fusion 61.10 (2019): 105016  doi: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
+[2] IET logo designed by http://www.riccardopirotto.com/
 
 # User manual
 See the documentation Documentation/IET_User_Manual_Document.pdf
