@@ -26,7 +26,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 # References & links
 *  Abate, D., and P. Bettini. "An inverse equilibrium tool to define axisymmetric plasma equilibria." Plasma Physics and Controlled Fusion 61.10 (2019): 105016  doi: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
-* Consorzio RFX https://www.igi.cnr.it/
+* Consorzio RFX - https://www.igi.cnr.it/
 * Centro Ricerche Fusione - Università degli Studi di Padova - https://www.crf.unipd.it/
 * IET logo designed by http://www.riccardopirotto.com/
 
