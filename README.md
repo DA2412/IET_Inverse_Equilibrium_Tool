@@ -8,6 +8,8 @@ IET was validated for both ITER-like plasma configurations and experimental plas
 
 For any information contact: domenico.abate@igi.cnr.it
 
+To cite the code: https://doi.org/10.5281/zenodo.3482878
+
 # License
 Copyright (C) 2019 Domenico Abate - domenico.abate@igi.cnr.it
 
