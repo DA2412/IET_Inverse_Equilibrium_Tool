@@ -1,0 +1,181 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="741003887" file="\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET.prj" location="\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL" name="IET" preferred-package-location="C:\mnt\N41a\home\abate\D:\Domenico_Disk_D\Lavoro\2020_InverseEquilibriumTool_FINAL\IET_StandAlone_v1\for_redistribution" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>IET</param.appname>
+    <param.icon>${PROJECT_ROOT}\IET_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\IET_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\IET_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\IET_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\IET_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Domenico Abate</param.authnamewatermark>
+    <param.email>domenico.abate@igi.cnr.it</param.email>
+    <param.company>Consorzio RFX</param.company>
+    <param.summary>The Inverse Equilibrium Tool allows to design plasma equilibria</param.summary>
+    <param.description>IET allows to compute the coil currents needed to obtain a predetermined plasma shape with defined plasma global parameters (i.e. total plasma current and total poloidal magnetic flux at the boundary) by solving a constrained minimization problem. 
+The IET computational tool is constituted by three main modules, each with a dedicated GUI. IET was validated for both ITER-like plasma configurations and experimental plasmas in the RFX-mod experiment.  The journal publication of IET code can be found here: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
+
+Copyright (C) 2019 Domenico Abate - domenico.abate@igi.cnr.it
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\logo_IET.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Consorzio RFX\IET\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\IET_StandAloneWin_v1\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\IET_StandAloneWin_v1\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\IET_StandAloneWin_v1</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>IET_Installer_web</param.web.mcr.name>
+    <param.package.mcr.name>IET_installer</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file>IET_log</param.log.file>
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 IET allows to compute the coil currents needed to obtain a predetermined plasma shape with defined plasma global parameters (i.e. total plasma current and total poloidal magnetic flux at the boundary) by solving a constrained minimization problem. 
+The IET computational tool is constituted by three main modules, each with a dedicated GUI. IET was validated for both ITER-like plasma configurations and experimental plasmas in the RFX-mod experiment.  The journal publication of IET code can be found here: https://iopscience.iop.org/article/10.1088/1361-6587/ab3f09
+
+Copyright (C) 2019 Domenico Abate - domenico.abate@igi.cnr.it
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see &lt;https://www.gnu.org/licenses/&gt;.</param.help.text>
+    <unset>
+      <param.version />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\IET.mlapp</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\Documentation</file>
+      <file>${PROJECT_ROOT}\IET.mlapp</file>
+      <file>${PROJECT_ROOT}\IET_EQUILIBRIUM_TOOL</file>
+      <file>${PROJECT_ROOT}\IET_OPTIMIZATION_TOOL</file>
+      <file>${PROJECT_ROOT}\IET_SHAPING_TOOL</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="splash.png" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="readme.txt" optional="true">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\IET_StandAloneWin_v1\for_testing" name="IET.exe" optional="false">\\raserver.igi.cnr.it\disk x\home\abate\2020_InverseEquilibriumTool_FINAL\IET_StandAloneWin_v1\for_testing\IET.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2019b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
