@@ -34,12 +34,15 @@ Z_boundary = geometry.boundaryCoordinates(:,2);
 %% define plasma boundary
 disp('------------------------------------DEFINING PLASMA BOUNDARY------------------------------------')
 csi=[];
-csi(1,1)=-0.5;
-csi(2,1)=-0.3;
-csi(3,1)=0;
-csi(4,1)= 0;
+% csi(1,1)=-0.5;
+% csi(2,1)=-0.3;
+% csi(3,1)=0;
+% csi(4,1)= 0;
 
 [shape_parameters]=computeShapeParameters(R_boundary, Z_boundary);
+
+[csi] = computeSquareness(R_boundary,Z_boundary);
+
 [x,y,A,B,n_exponent] = computeSuperEllipses(shape_parameters,csi);
 [zs_Xpoint] = computeSuperellipsesXpoint(shape_parameters,csi); %for geometrical X-point calculation
 
