@@ -149,7 +149,7 @@ while err > tol
             scarto(iter+1,:) = norm(solk1-solk)/numel(solk1);
          
             
-            disp(['iteration n°:',num2str(iter+1)]);
+            disp(['iteration nï¿½:',num2str(iter+1)]);
             disp(['lambda: ',num2str(lambda)])
             disp(['I tot: ',num2str(Iphi_tot)])
             disp(['psi_ak magnetic axis: ',num2str(psi_ak)]);
@@ -216,7 +216,8 @@ EqSolution.PSI_final = griddata(app.node(:,1),app.node(:,2),EqSolution.psi_tot_d
  end   
 
  
- app.ConvergencePlot.cla;
+%  app.ConvergencePlot.cla; % this is matlab 2020b
+cla(app.ConvergencePlot)
  semilogy(app.ConvergencePlot,Residual_Picard,'b-x','linewidth',2)
  hold(app.ConvergencePlot,'on')
   semilogy(app.ConvergencePlot,scarto,'r-o','linewidth',2)
@@ -226,14 +227,16 @@ EqSolution.PSI_final = griddata(app.node(:,1),app.node(:,2),EqSolution.psi_tot_d
  ylabel(app.ConvergencePlot,'Picard convergence')
  legend(app.ConvergencePlot,'error','residual')
 
-app.PlasmaSurfacesPlot.cla;
+% app.PlasmaSurfacesPlot.cla; % this is matlab 2020b
+cla(app.PlasmaSurfacesPlot)
 contour(app.PlasmaSurfacesPlot,RR,ZZ,EqSolution.PSI_final,30)
 contour(app.PlasmaSurfacesPlot,RR,ZZ,EqSolution.PSI_final,[app.psiBoundary,app.psiBoundary],'r','linewidth',2) 
 plot(app.PlasmaSurfacesPlot,app.R_boundary_finale,app.Z_boundary_finale,'-r','linewidth',2);
 title(app.PlasmaSurfacesPlot,'\Psi final equilibrium')
 
 
-app.JprofileSolutionPlot.cla;
+% app.JprofileSolutionPlot.cla; % this is matlab 2020b
+cla(app.JprofileSolutionPlot) 
 JP.faces=app.tri;
 JP.vertices=app.node;
 JP.facevertexcdata=EqSolution.Jphi_final./(max(EqSolution.Jphi_final));
